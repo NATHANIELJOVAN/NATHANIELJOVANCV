@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Jovan Nathaniel</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-spy="scroll" data-target="#navbarNav" data-offset="70">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+    <div class="container">
+      <a class="navbar-brand font-weight-bold" href="#welcome-section">Jovan Nathaniel</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#profile">Profile</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Welcome Section -->
+  <section id="welcome-section" class="d-flex justify-content-center align-items-center text-white">
+    <div class="text-center">
+      <h1 class="display-4 font-weight-bold">Welcome to My CV</h1>
+      <p class="lead">Scroll down to learn more about me</p>
+      <div class="welcome-buttons">
+  <a href="#profile" class="btn-welcome btn-blue">About Me</a>
+  <a href="#portfolio" class="btn-welcome btn-dark">View Projects</a>
+</div>
+
+    </div>
+  </section>
+
+  <!-- Wrapper with gradient background for profile, portfolio, and contact -->
+  <div class="profile-portfolio-wrapper">
+
+    <!-- Profile Section -->
+    <section id="profile" class="py-5 text-white fade-section">
+      <div class="container text-center">
+        <h2 class="section-title">Profile</h2>
+        <img src="pfp2.jpg" alt="Profile Picture" class="rounded-circle mb-4 profile-pic clickable-img" />
+
+        <div class="profile-lsh-container justify-content-center">
+          <div class="profile-lsh-item">
+            <h4>About Me</h4>
+            <ul>
+              <p>Hi, I'm Jovan Nathaniel, you can call me Jovan. I graduated from Pangudi Luhur Bernardus High School and am currently studying Information Systems at Tarumanagara University taking online classes. I am a passionate Information Systems student, specializing in frontend and backend development. I've been learning to create websites and user interfaces since high school and have built several websites during my time in college.</p>
+            </ul>
+          </div>
+        </div>
+        <!-- Biodata Section -->
+        <div class="profile-lsh-container justify-content-center">
+          <div class="profile-lsh-item">
+            <h4>Biodata</h4>
+            <ul>
+              <li>Full Name : Jovan Nathaniel</li>
+              <li>Date of birth : October 19, 2005</li>
+              <li>Address : Central Cikarang</li>
+              <li>Gender : Male</li>
+              <li>Height : 175cm</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Languages, Skills, Hobbies Section -->
+        <div class="profile-lsh-container justify-content-center">
+          <div class="profile-lsh-item">
+            <h4>Skills</h4>
+            <ul>
+              <li>PHP, HTML, CSS, JavaScript</li>
+              <li>Microsoft Word, Excel</li>
+              <li>Java & Spring Boot</li>
+              <li>Graphic Design</li>
+              <li>Figma, Premiere Pro, Canva, Davinci Resolve, etc.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- education Section -->
+<section id="education">
+  <h2 class="section-title">Education</h2>
+  <div class="education-card">
+    <div class="edu-header">
+      <div class="edu-left">
+        <h3>Tarumanagara University</h3>
+        <div class="degree">Information System</div>
+      </div>
+      <div class="edu-meta">
+        <div class="year">2023 - Present</div>
+        <div class="gpa">Latest GPA: 3.40</div>
+      </div>
+    </div>
+
+    <h4>Relevant Coursework</h4>
+    <ul class="coursework-list">
+      <li class="coursework-item">
+        <span class="course-title">WEB DEVELOPMENT</span>
+        <span class="grade-badge">A</span>
+      </li>
+      <li class="coursework-item">
+        <span class="course-title">OBJECT BASED PROGRAMMING</span>
+        <span class="grade-badge">B</span>
+      </li>
+      <li class="coursework-item">
+        <span class="course-title">BUSINESS INFORMATION SYSTEMS</span>
+        <span class="grade-badge">A</span>
+      </li>
+      <li class="coursework-item">
+        <span class="course-title">ENTERPRISE ARCHITECTURE</span>
+        <span class="grade-badge">A</span>
+      </li>
+      <li class="coursework-item">
+        <span class="course-title">BUSINESS INTEL. & ENTERPRISE DB</span>
+        <span class="grade-badge">A</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5 text-white fade-section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+
+        <div id="portfolioCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active text-center">
+              <h4>ONLINE SHOP</h4>
+              <p>Built with PHP, HTML, and CSS</p>
+              <img src="onlineshop.png" class="d-block mx-auto img-fluid border clickable-img portfolio-img" alt="Display Project" />
+              <p>click arrow to see more</p>
+              <a href="https://github.com/NATHANIELJOVAN/onlineshop" class="btn btn-outline-light mt-2" download>View Gifthub</a>
+            </div>
+
+            <div class="carousel-item text-center">
+              <h4>GOODS RECEIPT AND SHIPPING SYSTEM</h4>
+              <p>Built with JavaScript, HTML, and CSS</p>
+              <img src="BARANG.png" class="d-block mx-auto img-fluid border clickable-img portfolio-img" alt="Pengiriman Project" />
+              <p>click arrow to see more</p>
+              <a href="https://github.com/NATHANIELJOVAN/EXPEDISI" class="btn btn-outline-light mt-2" download>View Gifthub</a>
+            </div>
+
+            <div class="carousel-item text-center">
+              <h4>SCHOOL INVENTORY SYSTEM</h4>
+              <p>Built with PHP, HTML, and CSS</p>
+              <img src="stockbarang.png" class="d-block mx-auto img-fluid border clickable-img portfolio-img" alt="Inventory Sekolah Project" />
+              <p>click arrow to see more</p>
+              <a href="https://github.com/NATHANIELJOVAN/stock-barang" class="btn btn-outline-light mt-2" download>View Gifthub</a>
+            </div>
+
+          </div>
+
+          <a class="carousel-control-prev" href="#portfolioCarousel" role="button" data-slide="prev" style="filter: invert(1);">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#portfolioCarousel" role="button" data-slide="next" style="filter: invert(1);">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Experience Section -->
+<section id="experience" class="py-5 text-white fade-section">
+  <div class="container">
+    <h2 class="section-title text-center">Experience</h2>
+
+
+    <div class="experience-item mb-4">
+      <h4 class="font-weight-bold">No Experience</h4>
+      <p class="text-muted mb-1">Tarumanagara University – 2023 to Present</p>
+      <p>I don’t have job experience yet, but I’m eager to learn and ready to start working. I’m interested in technology and want to grow my skills through real work opportunities.</p>
+    </div>
+
+    
+  </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 text-white fade-section">
+  <div class="container text-center profile-lsh-item">
+    <h2 class="section-title">Let's Connect</h2>
+    <p class="mb-4">Feel free to reach out through any of these platforms</p>
+
+    <div class="row justify-content-center mb-4">
+      <div class="col-md-3 mb-3">
+        <img src="wha.png" alt="GitHub" style="width: 40px;" class="mb-2" />
+        <h5>Whatsapp</h5>
+        <p>+62 857 7173 0827</p>
+      </div>
+            <div class="col-md-3 mb-3">
+        <a href="https://www.linkedin.com/in/jovan-nathaniel-584236265/" target="_blank" rel="noopener noreferrer">
+          <img src="link.png" alt="LinkedIn" style="width: 40px;" class="mb-2" />
+        </a>
+        <h5>LinkedIn</h5>
+        <p>Jovan Nathaniel</p>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <img src="gmail.webp" alt="Email" style="width: 40px;" class="mb-2" />
+        <h5>Email</h5>
+        <p>jovan.nathaniel@gmail.com</p>
+      </div>
+    </div>
+    <p class="text-muted">Based in Central Cikarang, Indonesia • Available for remote opportunities</p>
+  </div>
+</section>
+
+
+  </div> <!-- End of profile-portfolio-wrapper -->
+
+  <!-- Footer -->
+  <footer class="bg-black text-white text-center py-3">
+    <p>&copy; 2024 Jovan Nathaniel. All rights reserved. 825230124</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <script>
+    // Smooth scroll with fade in effect for sections
+    document.querySelectorAll('.navbar-nav a.nav-link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href').substring(1);
+        const targetSection = document.getElementById(targetId);
+        targetSection.scrollIntoView({ behavior: 'smooth' });
+        targetSection.classList.add('fade-in');
+      });
+    });
+
+    // Optional: fade in on scroll
+    window.addEventListener('scroll', () => {
+      document.querySelectorAll('.fade-section').forEach(section => {
+        const rect = section.getBoundingClientRect();
+        if (rect.top < window.innerHeight - 100) {
+          section.classList.add('fade-in');
+        }
+      });
+    });
+
+    // Popup image logic
+    const modal = document.createElement('div');
+    modal.classList.add('modal-img-popup');
+    modal.innerHTML = `
+      <span class="modal-close-btn">&times;</span>
+      <img src="" alt="Preview Image" />
+    `;
+    document.body.appendChild(modal);
+
+    const modalImg = modal.querySelector('img');
+    const closeBtn = modal.querySelector('.modal-close-btn');
+
+    document.querySelectorAll('.clickable-img').forEach(img => {
+      img.addEventListener('click', () => {
+        modal.style.display = 'flex';
+        modalImg.src = img.src;
+        modalImg.alt = img.alt;
+        document.body.style.overflow = 'hidden';
+      });
+    });
+
+    closeBtn.addEventListener('click', () => {
+      modal.style.display = 'none';
+      document.body.style.overflow = '';
+    });
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.style.display = 'none';
+        document.body.style.overflow = '';
+      }
+    });
+  </script>
+
+<a href="CV.pdf" download class="floating-download-btn" title="Download DV">Download DV</a>
+
+</body>
+</html>
