@@ -424,3 +424,33 @@ footer.bg-black {
   max-width: 925px;
   margin: 0 auto;
 }
+
+/* --- TAMBAHAN UNTUK QUIZ APP (GAMBAR KESAMPING) --- */
+
+/* Wrapper untuk membuat gambar berjejer ke samping */
+.quiz-img-container {
+  display: flex;           /* Kunci agar ke samping */
+  justify-content: center; /* Posisi di tengah */
+  align-items: center;     /* Rata tengah vertikal */
+  gap: 15px;               /* Jarak antar gambar */
+  margin: 20px auto;       /* Jarak atas bawah */
+  width: 100%;
+}
+
+/* Mengatur ukuran gambar agar muat 3 biji */
+.quiz-img-container .portfolio-img {
+  max-width: 30%;          /* Lebar tiap gambar 30% (biar muat 3) */
+  height: auto;            /* Tinggi menyesuaikan proporsional */
+  margin: 0 !important;    /* Reset margin bawaan */
+}
+
+/* Khusus Tampilan HP (Mobile) biar tidak kekecilan */
+@media (max-width: 768px) {
+  .quiz-img-container {
+    flex-direction: column; /* Di HP kembali tumpuk ke bawah */
+  }
+  .quiz-img-container .portfolio-img {
+    max-width: 80%;         /* Di HP gambar dibesarkan */
+    margin-bottom: 15px !important;
+  }
+}
